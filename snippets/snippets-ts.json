@@ -127,6 +127,15 @@
     ],
     "description": "Functional Component with default export"
   },
+  "Functional Async Component Default Export": {
+    "prefix": "facde",
+    "body": [
+      "export default async function ${1:${TM_FILENAME_BASE}}($2) {",
+      "\treturn ( $0 );",
+      "}"
+    ],
+    "description": "Functional Async Component with default export"
+  },
   "Functional Component with useState hook": {
     "prefix": "fcst",
     "body": [
