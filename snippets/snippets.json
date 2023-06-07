@@ -69,37 +69,6 @@
     "body": ["import PropTypes from 'prop-types';"],
     "description": "Import PropTypes"
   },
-  "Class Component": {
-    "prefix": "cc",
-    "body": [
-      "class ${1:${TM_FILENAME_BASE}} extends Component {",
-      "\tstate = { $2 }",
-      "\trender() { ",
-      "\t\treturn ( $0 );",
-      "\t}",
-      "}",
-      " ",
-      "export default ${1:${TM_FILENAME_BASE}};"
-    ],
-    "description": "Class Component"
-  },
-  "Class Component With Constructor": {
-    "prefix": "ccc",
-    "body": [
-      "class ${1:${TM_FILENAME_BASE}} extends React.Component {",
-      "\tconstructor(props) {",
-      "\t\tsuper(props);",
-      "\t\tthis.state = { $2 }",
-      "\t}",
-      "\trender() { ",
-      "\t\treturn ( $0 );",
-      "\t}",
-      "}",
-      " ",
-      "export default ${1:${TM_FILENAME_BASE}};"
-    ],
-    "description": "Class Component With Constructor"
-  },
   "Functional Component": {
     "prefix": "fc",
     "body": [
@@ -173,11 +142,6 @@
       "}"
     ],
     "description": "Next.js Get initial props outside Component"
-  },
-  "Next.js getInitialProps() inside Class Component": {
-    "prefix": "ccgip",
-    "body": ["static async getInitialProps() {", "\treturn { $1 };", "}"],
-    "description": "Next.js static async getInitialProps() inside Class Component"
   },
   "Next.js getStaticProps() export": {
     "prefix": "gsp",
