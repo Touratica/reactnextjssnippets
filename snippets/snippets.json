@@ -286,7 +286,7 @@
   "Import Next Image component": {
     "prefix": "imimg",
     "body": "import Image from 'next/image';",
-    "description": "Next.js 10 Image component import"
+    "description": "Next.js Image component import"
   },
   "Use sized Next Image component": {
     "prefix": "nimg",
