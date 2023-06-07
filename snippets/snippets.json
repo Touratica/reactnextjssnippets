@@ -129,6 +129,20 @@
     ],
     "description": "Functional Component with useState hook"
   },
+  "Functional Component with Props": {
+    "prefix": "fcp",
+    "body": [
+      "export default function ${1:${TM_FILENAME_BASE}}({ children }) {",
+      "\treturn (",
+      "\t\t<>",
+      "\t\t\t{children}",
+      "\t\t\t$0",
+      "\t\t</>",
+      "\t);",
+      "}"
+    ],
+    "description": "Functional Component with Props"
+  },
   "import Next.js Head": {
     "prefix": "imhd",
     "body": "import Head from 'next/head';",
@@ -272,5 +286,9 @@
     "prefix": "nuimg",
     "body": "<Image alt=\"$1\" src=\"$1\" unsized=\"$1\" />",
     "description": "Use sized Next Image component"
+  },
+  "Component Props": {
+    "prefix": "cp",
+    "body": "{ children }"
   }
 }
