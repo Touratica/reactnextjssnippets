@@ -127,6 +127,17 @@
     ],
     "description": "Functional Component with default export"
   },
+  "Functional Client Component Default Export": {
+    "prefix": "fccde",
+    "body": [
+      "\"use client\";",
+
+      "export default function ${1:${TM_FILENAME_BASE}}($2) {",
+      "\treturn ( $0 );",
+      "}"
+    ],
+    "description": "Functional Client Component with default export"
+  },
   "Functional Async Component Default Export": {
     "prefix": "facde",
     "body": [
